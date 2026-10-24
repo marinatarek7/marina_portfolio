@@ -151,7 +151,7 @@
     <div class="container py-5">
 
         <div class="row g-4">
-            <div class="col-lg-6 col-12 about-column">
+            <div class="col-lg-6 col-md-12 about-column">
 
                 <h2 class="fw-bold mb-3">About Me</h2>
                 <div class="about-line mb-4"></div>
@@ -187,7 +187,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-5 col-sm-12 m-md-3 skills">
+          <div class="col-12 col-lg-6 skills">
                 <h2 class=" fw-bold mb-3">My Skills</h2>
                 <div class="about-line mb-4"></div>
                 <div class="row g-3 text-start">
@@ -234,28 +234,28 @@
   </div>
 </div>
 <div class="">
-<div class="progress m-4 color d-flex align-items-center m-4 gap-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+<div class="progress m-4 color d-flex align-items-center gab-3" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar fw-bold" style="width: 90%">HTML & css</div>
   <span>90%</span>
 </div>
-<div class="progress m-4 d-flex align-items-center m-4 gap-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+<div class="progress m-4 d-flex align-items-center gap-3" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar" style="width: 70%">JavaScript</div>
   <span>70%</span>
 </div>
-<div class="progress m-4 d-flex align-items-center m-4 gap-3" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+<div class="progress m-4 d-flex align-items-center gap-3" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar" style="width: 60%">React</div>
   <span>60%</span>
 </div>
-<div class="progress m-4 d-flex align-items-center m-4 gap-3" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+<div class="progress m-4 d-flex align-items-center gap-3" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
   <div class="progress-bar" style="width: 80%">Bootstrap</div>
   <span>80%</span>
 </div>
             </div>  
+            
     </div>
         </div>
         </div>
         </div>
-    </div>
 
 </section>
 <!-- education section -->
@@ -425,7 +425,7 @@
         <div class="row justify-content-between align-items-center py-5">
             <div class="col-lg-5 col-md-6">
 
-                <h2 class="fw-bold mb-3 f">Contact Me</h2>
+                <h2 class="fw-bold f">Contact Me</h2>
 
                 <div class="about-line mb-4 f"></div>
 
@@ -444,26 +444,6 @@
             <div class="col-lg-5 col-md-6 mt-4 mt-md-0 d">
                 <h6 class="fw-light message">Send a Message</h6>
                     <div class="form-line message"></div>
-                <!-- <form class="form">
-                    <div class="mb-3">
-                        <input type="text" class="form-control"
-                               placeholder="Your Name">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="email" class="form-control"
-                               placeholder="Your Email">
-                    </div>
-
-                    <div class="mb-3">
-                        <textarea class="form-control" rows="5"
-                                  placeholder="Your Message"></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-dark">
-                        Send Message
-                    </button>
-                </form> -->
                 <form class="form" id="contactForm" novalidate>
   <div class="mb-3">
     <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
@@ -479,8 +459,6 @@
     <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your Message"></textarea>
     <small class="error-msg"></small>
   </div>
-
-  <!-- حقل مخفي لمنع رسائل السبام (البوتات بتملاه) -->
   <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
 
   <button type="submit" class="btn btn-dark" id="sendBtn">Send Message</button>
