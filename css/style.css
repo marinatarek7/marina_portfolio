@@ -315,12 +315,9 @@ body.dark .typing-wrap {
 .about-card a:hover {
     text-decoration: underline;
 }
-.skills{
-margin-left: 100px;
-}
 .skill-card {
     height: 80px;
-    justify-content:#2c2 center;
+    justify-content: center;
     align-items: center;
     background-color: #fffaf5;
     border: 1px solid #E8D8C5;
@@ -658,3 +655,4 @@ body.dark .Certificate a {
 
 body.dark .error-msg   { color: #ff7b6b; }
 body.dark .status-success { color: #8fcf7a; } 
+
